@@ -1,5 +1,5 @@
     #title {
-        background-color: #1F8A70;
+        background-color: #398AB9;
     }
     
     .title-line {
@@ -16,7 +16,7 @@
     
     .navbar {
         padding-top: 125px;
-        background-color: #1F8A70;
+        background-color: #398AB9;
     }
     
     .navbar-brand {
@@ -59,11 +59,11 @@
     }
     
     .icon {
-        color: #1F8A70;
+        color: #398AB9;
     }
     
     .icon:hover {
-        color: rgb(113, 192, 113);
+        color: black;
     }
     
     h3 {
@@ -71,23 +71,23 @@
     }
     
     .men-shoes {
-        background-color: #1F8A70;
+        background-color: #398AB9;
     }
     
     .kids-shoes {
-        background-color: #1F8A70;
+        background-color: #398AB9;
     }
     
     .M {
         font-family: Georgia, 'Times New Roman', Times, serif;
         text-align: center;
-        background-color: #1F8A70;
+        background-color: #398AB9;
     }
     
     .W {
         margin-top: 10%;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        background-color: #1F8A70;
+        background-color: #398AB9;
         text-align: center;
     }
     
@@ -95,7 +95,7 @@
         margin-top: 10%;
         font-family: Georgia, 'Times New Roman', Times, serif;
         text-align: center;
-        background-color: #1F8A70;
+        background-color: #398AB9;
     }
     
     .press-image {
@@ -108,7 +108,7 @@
     }
     
     #cta {
-        background-color: #1F8A70;
+        background-color: #398AB9;
         color: #fff;
         padding: 0 15%;
         text-align: center;
