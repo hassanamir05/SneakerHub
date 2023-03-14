@@ -1,146 +1,164 @@
-    #title {
-        background-color: #398AB9;
-    }
-    
-    .title-line {
-        padding-top: 15%;
-        font-family: cursive;
-        font-size: 4rem;
-        line-height: 4.5rem;
-        color: #fff;
-    }
-    
-    .title-image {
-        width: 130%;
-    }
-    
-    .navbar {
-        padding-top: 125px;
-        background-color: #398AB9;
-    }
-    
-    .navbar-brand {
-        font-family: cursive;
-        color: #fff;
-    }
-    
-    .feature-box {
-        text-align: center;
-        padding: 2% 5%;
-    }
-    
-    p {
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    #testimonials {
-        text-align: center;
-    }
-    
-    .row {
-        text-align: center;
-        padding: 7%;
-    }
-    
-    #features {
-        padding: 7%;
-        background-color: white;
-        text-align: center;
-    }
-    
-    .features-row {
-        text-align: center;
-        width: 30%;
-    }
-    
-    .box {
-        padding: 2% 5%;
-        text-align: center;
-    }
-    
-    .icon {
-        color: #398AB9;
-    }
-    
-    .icon:hover {
-        color: black;
-    }
-    
-    h3 {
-        font-family: cursive;
-    }
-    
-    .men-shoes {
-        background-color: #398AB9;
-    }
-    
-    .kids-shoes {
-        background-color: #398AB9;
-    }
-    
-    .M {
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        text-align: center;
-        background-color: #398AB9;
-    }
-    
-    .W {
-        margin-top: 10%;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        background-color: #398AB9;
-        text-align: center;
-    }
-    
-    .K {
-        margin-top: 10%;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        text-align: center;
-        background-color: #398AB9;
-    }
-    
-    .press-image {
-        height: 150px;
-        width: 20%;
-    }
-    
-    #press {
-        text-align: center;
-    }
-    
-    #cta {
-        background-color: #398AB9;
-        color: #fff;
-        padding: 0 15%;
-        text-align: center;
-    }
-    
-    .cta-heading {
-        font-family: cursive;
-        font-size: 2rem;
-        line-height: 2.5rem;
-        padding-top: 12%;
-        padding-bottom: 32%;
-    }
-    
-    .download-image {
-        width: 10%;
-        transform: rotate(35deg);
-    }
-    
-    #footer {
-        padding: 7% 15%;
-        text-align: center;
-    }
-    
-    .social-icon {
-        margin: 20px 10px;
-    }
-    
-    .download-line {
-        padding-top: 15%;
-        font-family: cursive;
-        font-size: 3rem;
-        line-height: 3.5rem;
-        color: #fff;
-        padding-bottom: 12%;
-    }
+#title {
+    background-color: #4E6E81;
+}
+
+.title-line {
+    padding-top: 15%;
+    font-family: cursive;
+    font-size: 4rem;
+    line-height: 4.5rem;
+    color: #fff;
+}
+
+.title-image {
+    width: 130%;
+}
+
+.navbar {
+    padding-top: 125px;
+    background-color: #4E6E81;
+}
+
+.navbar-brand {
+    font-family: cursive;
+    color: #fff;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 2% 5%;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#testimonials {
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+    padding: 7%;
+}
+
+#features {
+    padding: 7%;
+    background-color: white;
+    text-align: center;
+}
+
+.features-row {
+    text-align: center;
+    width: 30%;
+}
+
+.box {
+    padding: 2% 5%;
+    text-align: center;
+}
+
+.icon {
+    color: #4E6E81;
+}
+
+.icon:hover {
+    color: black;
+}
+
+h3 {
+    font-family: cursive;
+}
+
+.men-shoes {
+    background-color: #4E6E81;
+}
+
+.kids-shoes {
+    background-color: #4E6E81;
+}
+
+.M {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #4E6E81;
+}
+
+.W {
+    margin-top: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4E6E81;
+    text-align: center;
+}
+
+.K {
+    margin-top: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #4E6E81;
+}
+
+.press-image {
+    height: 150px;
+    width: 20%;
+}
+
+#press {
+    text-align: center;
+}
+
+#cta {
+    background-color: #4E6E81;
+    color: #fff;
+    padding: 0 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: cursive;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding-top: 12%;
+    padding-bottom: 32%;
+}
+
+.download-image {
+    width: 10%;
+    transform: rotate(35deg);
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+.download-line {
+    padding-top: 15%;
+    font-family: cursive;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    color: #fff;
+    padding-bottom: 12%;
+}
+
+#dropdown_btn {
+    color: black;
+}
+
+#signup {
+    margin: 5px;
+}
+
+#login {
+    margin: 5px;
+}
+
+.box {
+    cursor: pointer;
+    border: none;
+    border-bottom: solid 1px;
+}
