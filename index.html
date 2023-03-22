@@ -71,112 +71,66 @@
                             <div class="modal-dialog modal-dialog-centered">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Login Page</h1>
+                                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Login</h1>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <label>Username</label>
+                                        <label class="pages_writting">Username</label>
                                         <br>
                                         <input class="box" type="text">
                                         <br>
-                                        <br>
                                     </div>
                                     <div class="modal-body">
-                                        <label>Password</label>
+                                        <label class="pages_writting">Password</label>
                                         <br>
-                                        <input class="box" type="password">
+                                        <input style="margin-bottom: 0px;" class="box" type="password">
                                         <br>
-                                        <br>
+                                        <input style="margin-left:100px" type="checkbox">
+                                        <label style="margin-bottom: 20px;">Remember Me!</label>
                                     </div>
-                                    <div class="modal-body">
-                                        <input type="checkbox">
-                                        <label>Remember me</label>
-                                        <br>
-                                        <a href="#" id="forgot_login">Forgot Password</a>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button class="btn btn-secondary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Cancel</button>
-                                        <button class="btn btn-dark" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Login</button>
-                                    </div>
+                                    <button class="btn btn-dark" id="inside_signup" data-bs-target="#" data-bs-toggle="modal">Login</button>
+                                    <a style="margin: 40px 170px;" href="#" id="forgot_login">Forgot Password?</a>
                                 </div>
                             </div>
                         </div>
-                        <button class="btn btn-dark" data-bs-target="#exampleModalToggle1" id="login" data-bs-toggle="modal">Login</button>
+                        <button class="btn btn-outline-dark" data-bs-target="#exampleModalToggle1" id="login" data-bs-toggle="modal">Login</button>
+
+                        <!--Signup Page-->
                         <div class="modal fade" id="mainsignup" aria-hidden="true" aria-labelledby="mainsignupLabel" tabindex="-1">
                             <div class="modal-dialog modal-dialog-centered">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h1 class="modal-title fs-5">Signup Page</h1>
+                                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Signup</h1>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        <div class="sub">
-                                            <label>Email</label>
-                                            <br>
-                                            <input class="box" type="email">
-                                            <br>
-                                            <br>
-                                        </div>
-                                        <div class="sub">
-                                            <label>Password</label>
-                                            <br>
-                                            <input class="box" type="password">
-                                            <br>
-                                            <br>
-                                        </div>
-                                        <div class="sub">
-                                            <label>Verification Code</label>
-                                            <br>
-                                            <input class="box" type="text">
-                                            <br>
-                                            <br>
-                                        </div>
+                                        <label class="pages_writting" class="pages_writting">Username</label>
+                                        <br>
+                                        <input class="box" type="text">
+                                        <br>
                                     </div>
-                                    <div class="modal-footer">
-                                        <button class="btn btn-secondary" data-bs-target="#subsignup" data-bs-toggle="modal">Next Page</button>
+                                    <div class="modal-body">
+                                        <label class="pages_writting">Email</label>
+                                        <br>
+                                        <input class="box" type="email">
+                                        <br>
+                                    </div>
+                                    <div class="modal-body">
+                                        <label class="pages_writting">Password</label>
+                                        <br>
+                                        <input class="box" type="password">
+                                        <br>
+                                    </div>
+                                    <button class="btn btn-dark" id="inside_signup" data-bs-target="#" data-bs-toggle="modal">Signup</button>
+                                    <div class="modal-body">
+                                        <label style="margin:20px 0 20px 110px;">Already have Account?</label>
+                                        <a href="#">Login</a>
+                                        <br>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="modal fade" id="subsignup" aria-hidden="true" aria-labelledby="subsignupLabel" tabindex="-1">
-                            <div class="modal-dialog modal-dialog-centered">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-5">Signup Page</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="sub ">
-                                            <label>Username</label>
-                                            <br>
-                                            <input class="box" type="text">
-                                            <br>
-                                            <br>
-                                        </div>
-                                        <div class="sub">
-                                            <label>Mobile Number</label>
-                                            <br>
-                                            <input class="box" type="tel">
-                                            <br>
-                                            <br>
-                                        </div>
-                                        <div class="sub">
-                                            <label>DoB</label>
-                                            <br>
-                                            <input class="box" type="date">
-                                            <br>
-                                            <br>
-                                        </div>
-
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button class="btn btn-secondary" data-bs-target="#mainsignup" data-bs-toggle="modal">Back</button>
-                                        <button class="btn btn-dark" data-bs-target="#" data-bs-toggle="modal">Signup</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="btn btn-dark" data-bs-target="#mainsignup" data-bs-toggle="modal" id="signup" style="border: none">Signup</button>
+                        <button class="btn btn-outline-dark" data-bs-target="#mainsignup" id="signup" data-bs-toggle="modal">Signup</button>
                     </ul>
                 </div>
             </nav>
