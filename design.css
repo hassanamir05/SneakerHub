@@ -1,5 +1,5 @@
 #title {
-    background-color: #4E6E81;
+    background-color: #464949;
 }
 
 .title-line {
@@ -16,7 +16,7 @@
 
 .navbar {
     padding-top: 125px;
-    background-color: #4E6E81;
+    background-color: #464949;
 }
 
 .navbar-brand {
@@ -59,7 +59,7 @@ p {
 }
 
 .icon {
-    color: #4E6E81;
+    color: #464949;
 }
 
 .icon:hover {
@@ -71,23 +71,23 @@ h3 {
 }
 
 .men-shoes {
-    background-color: #4E6E81;
+    background-color: #464949;
 }
 
 .kids-shoes {
-    background-color: #4E6E81;
+    background-color: #464949;
 }
 
 .M {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    background-color: #4E6E81;
+    background-color: #464949;
 }
 
 .W {
     margin-top: 10%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #4E6E81;
+    background-color: #464949;
     text-align: center;
 }
 
@@ -95,7 +95,7 @@ h3 {
     margin-top: 10%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    background-color: #4E6E81;
+    background-color: #464949;
 }
 
 .press-image {
@@ -108,7 +108,7 @@ h3 {
 }
 
 #cta {
-    background-color: #4E6E81;
+    background-color: #464949;
     color: #fff;
     padding: 0 15%;
     text-align: center;
@@ -151,14 +151,47 @@ h3 {
 
 #signup {
     margin: 5px;
+    background-color: transparent;
+}
+
+#signup:hover {
+    background-color: rgb(49, 49, 49);
+    color: white;
 }
 
 #login {
     margin: 5px;
+    background-color: transparent;
+}
+
+#login:hover {
+    background-color: rgb(49, 49, 49);
+    color: white;
 }
 
 .box {
     cursor: pointer;
-    border: none;
-    border-bottom: solid 1px;
+    border: solid 1px;
+    margin: 0 0 0 20%;
+    width: 250px;
+    border-radius: 20px;
+}
+
+#inside_signup {
+    margin-left: 110px;
+    width: 250px;
+    border-radius: 20px;
+    height: 40px;
+}
+
+#inside_login {
+    margin-left: 110px;
+    width: 250px;
+    border-radius: 20px;
+    height: 40px;
+}
+
+.pages_writting {
+    font-family: cursive;
+    margin: 0 0 0 20%;
 }
