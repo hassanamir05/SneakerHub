@@ -195,3 +195,12 @@ h3 {
     font-family: cursive;
     margin: 0 0 0 20%;
 }
+
+@media only screen and (max-width: 600px) {
+    .title-line {
+        width: 300px;
+    }
+    .title-image {
+        width: 300px;
+    }
+}
