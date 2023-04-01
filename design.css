@@ -196,11 +196,4 @@ h3 {
     margin: 0 0 0 20%;
 }
 
-@media only screen and (max-width: 600px) {
-    .title-line {
-        width: 50%;
-    }
-    .title-image {
-        width: 50%;
-    }
-}
+
